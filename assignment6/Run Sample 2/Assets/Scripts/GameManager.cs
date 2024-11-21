@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
         // ---------- TODO ---------- 
         Destroy(Character);
         MyUIManager.DisplayMessage("Game Over!", 3);
+        MyUIManager.RestartButton.SetActive(true);
         // -------------------- 
     }
 

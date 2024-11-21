@@ -21,8 +21,8 @@ public class Character : MonoBehaviour
         // ---------- TODO ---------- 
         if (Input.GetMouseButton(0)) {
             if (RemainJump > 0) {
-                Jump(CharacterJumpPower);
                 RemainJump--;
+                Jump(CharacterJumpPower);
             }
         }   
 
