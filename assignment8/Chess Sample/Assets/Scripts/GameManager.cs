@@ -13,10 +13,10 @@ public class GameManager : MonoBehaviour
     private Transform TileParent;
     private Transform PieceParent;
     private Transform EffectParent;
-    
+
     private MovementManager movementManager;
     private UIManager uiManager;
-    
+
     public int CurrentTurn = 1; // 현재 턴 1 - 백, 2 - 흑
     public Tile[,] Tiles = new Tile[Utils.FieldWidth, Utils.FieldHeight];   // Tile들
     public Piece[,] Pieces = new Piece[Utils.FieldWidth, Utils.FieldHeight];    // Piece들
@@ -26,11 +26,11 @@ public class GameManager : MonoBehaviour
         TileParent = GameObject.Find("TileParent").transform;
         PieceParent = GameObject.Find("PieceParent").transform;
         EffectParent = GameObject.Find("EffectParent").transform;
-        
+
         uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
         movementManager = gameObject.AddComponent<MovementManager>();
         movementManager.Initialize(this, EffectPrefab, EffectParent);
-        
+
         InitializeBoard();
     }
 
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         // TilePrefab을 TileParent의 자식으로 생성하고, 배치함
         // Tiles를 채움
         // --- TODO ---
-        
+
         // ------
 
         PlacePieces(1);
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
     {
         // PlacePiece를 사용하여 Piece들을 적절한 모양으로 배치
         // --- TODO ---
-        
+
         // ------
     }
 
@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         // Pieces를 채움
         // 배치한 Piece를 리턴
         // --- TODO ---
-        
+
         // ------
     }
 
@@ -85,11 +85,11 @@ public class GameManager : MonoBehaviour
     public void Move(Piece piece, (int, int) targetPos)
     {
         if (!IsValidMove(piece, targetPos)) return;
-        
+
         // 해당 위치에 다른 Piece가 있다면 삭제
         // Piece를 이동시킴
         // --- TODO ---
-        
+
         // ------
     }
 
@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
     {
         // 턴을 변경하고, UI에 표시
         // --- TODO ---
-        
+
         // ------
     }
 }
