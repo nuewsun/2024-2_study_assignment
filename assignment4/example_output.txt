@@ -1,0 +1,77 @@
+----- 4-1 -----
+Enter an expression (ex. 2 + 3):
+>> 4 * 3
+Result: 12
+
+
+----- 4-1 Challege -----
+Enter an expression (ex. 2 + 3):
+>> 4 ** 3
+Result: 64
+
+Enter an expression (ex. 2 + 3):
+>> 5 ** -2
+Result: 0.04
+
+Enter an expression (ex. 2 + 3):
+>> 12 G 15
+Result: 3
+
+Enter an expression (ex. 2 + 3):
+>> 12 L 15
+Result: 60
+
+Enter an expression (ex. 2 + 3):
+>> 12 % 5
+Result: 2
+
+----- 4-2 -----
+Enter the radius: 
+>> 5
+                *   *   
+  *********     *   *   
+ *              *   *   
+ *              *   *   
+ *          ************
+ *              *   *   
+ *              *   *   
+ *              *   *   
+ *          ************
+ *              *   *   
+ *              *   *   
+  *********     *   *   
+
+------ 4-2 Challege ------
+Enter the radius: 
+>> 5
+                *   *  
+      *         *   *  
+   *     *      *   *  
+  *                    
+           ************
+               *   *   
+ *             *   *   
+               *   *   
+           ************
+  *                    
+   *     *    *   *    
+      *       *   *    
+
+
+----- 4-3 -----
+Average Scores: 
+Math: 84.40
+Science: 86.80
+English: 86.20
+
+Max and min Scores: 
+Math: (94, 72)
+Science: (95, 76)
+English: (92, 78)
+
+Students rank by total scores:
+Alice: 4th
+Bob: 1st
+Charlie: 5st
+David: 2nd
+Eve: 3rd
